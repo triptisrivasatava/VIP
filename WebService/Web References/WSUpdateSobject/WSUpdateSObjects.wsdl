@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://soap.sforce.com/schemas/class/WSUpdateSObjects" xmlns:LoanOpprtntyDetail="http://soap.sforce.com/schemas/class/WSCntctNLnOpprtntyDetail" targetNamespace="http://soap.sforce.com/schemas/class/WSUpdateSObjects" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://soap.sforce.com/schemas/class/WSCntctNLnOpprtntyDetail">
+      <xsd:complexType name="ContactDetail">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="Birthdate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BirthdateCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BorrowerFirstName" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="BorrowerLastName" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ContactID" nillable="true" type="tns:ID" />
+          <xsd:element minOccurs="0" name="Email" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmailCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerAddress" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerAddressCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerCity" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerCityCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerName" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EmployerNameCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FirstNameCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="HomePhone" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Income" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="IncomeCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="JobTitle" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="JobTitleCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LastNameCoborrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MailingCity" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MailingPostalCode" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MailingState" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MailingStreet" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MaritalStatus" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MiddleCreditScoreBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MobileCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MobilePhone" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="SSN" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="SSNCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="WorkPhoneCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="YearsInLineOfWork" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="YearsInLineOfWorkCoBorrower" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="LoanOpprtntyDetail">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="AppraisalDueDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="AppraisalOrdered" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="AppraisalReceived" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="AppraisedValue" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Appraiser" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="CashToClose" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="CLTV" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="County" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Discount" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DocsRequestedDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="DownPayment" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="EscrowAgent" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FinalGFEDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="FirstPaymentDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="GFEExpirationDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="HazardInsurance" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="HOA" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Index" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="InsuranceAgent" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="InsuranceReceived" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="InsuranceReceiveDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="InsuranceRequestedDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Lender" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LenderCredit" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LoanAmount" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LoanID" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LoanProgram" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LoanPurpose" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LoanType" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LockDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LockExperationDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="LTV" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Margin" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MonthlyPayment" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="MortgageInsurance" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Occupancy" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="OpportunityID" nillable="true" type="tns:ID" />
+          <xsd:element minOccurs="0" name="Processor" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyAddress" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyCity" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyOriginalCost" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyPostalCode" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyState" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyTax" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PropertyType" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ProposedMonthlyPayment" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="ProposedTotalExpenses" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="PurchasePrice" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="QC" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Rate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Realtor" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="RealtorBuyingAgent" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="RequiredComp" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="SentToQC" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TitleAgent" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TitleReceived" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TitleRequested" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TranscriptsReceivedDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="TranscriptsRequestedDate" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Underwriter" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VestingBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VestingCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VestingNotes" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VOEReceivedBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VOEReceivedCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VOERequestBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="VOERequestCoBorrower" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="YearPropertyAcquired" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="YieldSpread" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://soap.sforce.com/schemas/class/WSUpdateSObjects">
+      <xsd:import namespace="http://soap.sforce.com/schemas/class/WSCntctNLnOpprtntyDetail" />
+      <xsd:element name="AllowFieldTruncationHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="allowFieldTruncation" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CallOptions">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="client" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DebuggingHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="categories" type="tns:LogInfo" />
+            <xsd:element name="debugLevel" type="tns:LogType" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="LogInfo">
+        <xsd:sequence>
+          <xsd:element name="category" type="tns:LogCategory" />
+          <xsd:element name="level" type="tns:LogCategoryLevel" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:simpleType name="LogCategory">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Db" />
+          <xsd:enumeration value="Workflow" />
+          <xsd:enumeration value="Validation" />
+          <xsd:enumeration value="Callout" />
+          <xsd:enumeration value="Apex_code" />
+          <xsd:enumeration value="Apex_profiling" />
+          <xsd:enumeration value="Visualforce" />
+          <xsd:enumeration value="System" />
+          <xsd:enumeration value="All" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="LogCategoryLevel">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="Internal" />
+          <xsd:enumeration value="Finest" />
+          <xsd:enumeration value="Finer" />
+          <xsd:enumeration value="Fine" />
+          <xsd:enumeration value="Debug" />
+          <xsd:enumeration value="Info" />
+          <xsd:enumeration value="Warn" />
+          <xsd:enumeration value="Error" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="LogType">
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="None" />
+          <xsd:enumeration value="Debugonly" />
+          <xsd:enumeration value="Db" />
+          <xsd:enumeration value="Profiling" />
+          <xsd:enumeration value="Callout" />
+          <xsd:enumeration value="Detail" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:element name="DebuggingInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="debugLog" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SessionHeader">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="sessionId" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:simpleType name="ID">
+        <xsd:restriction base="xsd:string">
+          <xsd:length value="18" />
+          <xsd:pattern value="[a-zA-Z0-9]{18}" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="Error">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="ErrorMessage" nillable="true" type="xsd:string" />
+          <xsd:element minOccurs="0" name="Id" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="UpdtCntctNLnOpprtntyDetail">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="lstLnOppDetail" nillable="true" type="LoanOpprtntyDetail:LoanOpprtntyDetail" />
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="lstContactDetail" nillable="true" type="LoanOpprtntyDetail:ContactDetail" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="UpdtCntctNLnOpprtntyDetailResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" name="result" nillable="true" type="tns:Error" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </types>
+  <message name="Header">
+    <part name="AllowFieldTruncationHeader" element="tns:AllowFieldTruncationHeader" />
+    <part name="CallOptions" element="tns:CallOptions" />
+    <part name="DebuggingHeader" element="tns:DebuggingHeader" />
+    <part name="DebuggingInfo" element="tns:DebuggingInfo" />
+    <part name="SessionHeader" element="tns:SessionHeader" />
+  </message>
+  <message name="UpdtCntctNLnOpprtntyDetailRequest">
+    <part name="parameters" element="tns:UpdtCntctNLnOpprtntyDetail" />
+  </message>
+  <message name="UpdtCntctNLnOpprtntyDetailResponse">
+    <part name="parameters" element="tns:UpdtCntctNLnOpprtntyDetailResponse" />
+  </message>
+  <portType name="WSUpdateSObjectsPortType">
+    <operation name="UpdtCntctNLnOpprtntyDetail">
+      <input message="tns:UpdtCntctNLnOpprtntyDetailRequest" />
+      <output message="tns:UpdtCntctNLnOpprtntyDetailResponse" />
+    </operation>
+  </portType>
+  <binding name="WSUpdateSObjectsBinding" type="tns:WSUpdateSObjectsPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="UpdtCntctNLnOpprtntyDetail">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:header message="tns:Header" part="SessionHeader" use="literal" />
+        <soap:header message="tns:Header" part="CallOptions" use="literal" />
+        <soap:header message="tns:Header" part="DebuggingHeader" use="literal" />
+        <soap:header message="tns:Header" part="AllowFieldTruncationHeader" use="literal" />
+        <soap:body use="literal" parts="parameters" />
+      </input>
+      <output>
+        <soap:header message="tns:Header" part="DebuggingInfo" use="literal" />
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WSUpdateSObjectsService">
+    <documentation>
+    </documentation>
+    <port name="WSUpdateSObjects" binding="tns:WSUpdateSObjectsBinding">
+      <soap:address location="https://cs15.salesforce.com/services/Soap/class/WSUpdateSObjects" />
+    </port>
+  </service>
+</definitions>

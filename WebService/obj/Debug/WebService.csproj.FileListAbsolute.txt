@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\WebService\WebService\WebService\bin\Debug\WebService.exe.config
+C:\Users\Admin\Desktop\WebService\WebService\WebService\bin\Debug\WebService.exe
+C:\Users\Admin\Desktop\WebService\WebService\WebService\bin\Debug\WebService.pdb
+C:\Users\Admin\Desktop\WebService\WebService\WebService\obj\Debug\WebService.exe
+C:\Users\Admin\Desktop\WebService\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\Admin\Desktop\WebService\WebService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\bin\Debug\WebService.exe.config
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\bin\Debug\WebService.exe
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\bin\Debug\WebService.pdb
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\obj\Debug\WebService.exe
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\obj\Debug\WebService.pdb
+C:\Users\Tripti.Srivastava\Downloads\vip-web-service-master\vip-web-service-master\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
