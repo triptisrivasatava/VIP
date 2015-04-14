@@ -261,7 +261,7 @@
     <documentation>
     </documentation>
     <port name="WSUpdateSObjects" binding="tns:WSUpdateSObjectsBinding">
-      <soap:address location="https://cs15.salesforce.com/services/Soap/class/WSUpdateSObjects" />
+      <soap:address location="https://na15.salesforce.com/services/Soap/class/WSUpdateSObjects" />
     </port>
   </service>
 </definitions>

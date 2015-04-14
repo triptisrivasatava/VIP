@@ -25,29 +25,10 @@ namespace WebService.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://test.salesforce.com/services/Soap/u/32.0")]
-        public string WebService_Partner_SforceService {
-            get {
-                return ((string)(this["WebService_Partner_SforceService"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://cs15.salesforce.com/services/Soap/class/WSCntctNLnOpprtntyDetail")]
         public string WebService_WSCntNOppDetails_WSCntctNLnOpprtntyDetailService {
             get {
                 return ((string)(this["WebService_WSCntNOppDetails_WSCntctNLnOpprtntyDetailService"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://test.salesforce.com/services/Soap/u/32.0")]
-        public string ApiUrl {
-            get {
-                return ((string)(this["ApiUrl"]));
             }
         }
         
@@ -72,7 +53,26 @@ namespace WebService.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://cs15.salesforce.com/services/Soap/class/WSUpdateSObjects")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://login.salesforce.com/services/Soap/u/33.0")]
+        public string WebService_Partner_SforceService {
+            get {
+                return ((string)(this["WebService_Partner_SforceService"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://login.salesforce.com/services/Soap/u/33.0")]
+        public string ApiUrl {
+            get {
+                return ((string)(this["ApiUrl"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://na15.salesforce.com/services/Soap/class/WSUpdateSObjects")]
         public string WebService_WSUpdateSobject_WSUpdateSObjectsService {
             get {
                 return ((string)(this["WebService_WSUpdateSobject_WSUpdateSObjectsService"]));
